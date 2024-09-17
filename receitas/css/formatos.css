@@ -1,0 +1,57 @@
+.logotipo {
+    width: 50px;
+    height: 50px;
+margin-right: 5px;    
+}
+
+.parent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.sidebar {
+    justify-content: start;
+}
+
+.mainContent {
+    margin: 0 auto;
+    align-content: center;
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.titleContent {
+    display: flex;
+    flex-flow: row;
+    font-size: xx-large;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.subtitleContent{
+    display: flex;
+    flex-flow: column;
+    font-size: x-large;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0 auto;
+    height: 10rem;
+
+}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    background-color:rgb(135, 148, 222);
+    font-weight: 900;
+    padding-top: 10px;
+}
