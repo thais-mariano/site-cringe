@@ -1,7 +1,11 @@
+body {
+    background-color: rgb(230, 225, 219);
+}
+
 .logotipo {
     width: 50px;
     height: 50px;
-margin-right: 5px;    
+    margin-right: 5px;    
 }
 
 .parent {
@@ -34,15 +38,22 @@ margin-right: 5px;
     margin: 0 auto;
 }
 
-.subtitleContent{
+.subtitleContent {
     display: flex;
     flex-flow: column;
     font-size: x-large;
-    align-items: baseline;
+    justify-content: center;
+    margin: 10px auto;
+    height: 20%;
+}
+
+.subtitleContent p {
+    display: flex;
+    flex-flow: column;
+    font-size: x-large;
     justify-content: center;
     margin: 0 auto;
-    height: 10rem;
-
+    height: 20%;
 }
 
 footer {
@@ -51,7 +62,11 @@ footer {
     display: flex;
     height: 30px;
     justify-content: center;
-    background-color:rgb(135, 148, 222);
+    background-color:rgb(231, 147, 90);
     font-weight: 900;
     padding-top: 10px;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
