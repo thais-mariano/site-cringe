@@ -14,21 +14,14 @@ body {
     margin-right: 5px;    
 }
 
-.parent {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    height: 100vh;
-
-}
-
 .sidebar {
     justify-content: start;
     
 }
 
 .mainContent {
-    margin: 0 auto;
+    margin: auto;
+    height: 100vh;
     align-content: center;
     width: 75%;
     justify-content: center;

@@ -7,13 +7,13 @@
     <link href="css/css/bootstrap.css" rel="stylesheet">
     <link href="css/cadastro.css" rel="stylesheet">
     <link href="css/formatos.css" rel="stylesheet">
-
-
-
 </head>
 <body>
     <style>
-        section {background-color: rgb(255, 229, 207);}
+        section {
+            height: 100vh;
+            background-color: rgb(255, 229, 207);
+        }
     </style>
     <header class="p-4 border">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -91,8 +91,8 @@
                         <input class="form-control my-2 ml-30px w-35" type="text" maxlength="2">
                     </label>
                 </div>
-                <div class="mx-6">
-                    <button>Cadastrar</button>
+                <div class="mx-6 my-4">
+                    <button type="button" class="btn btn-secondary" onclick="this.form.reset();">Cadastrar</button>
                 </div>
             </div>
         </fieldset>
